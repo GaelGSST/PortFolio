@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}   
+
+a.nav-link {
+    font-size: 1em;
+}
+
+img {
+    border-radius: 1em;
+    width: 25em;
+}
+
+section .title{
+    margin-bottom: 20px;
+}
+
+section{
+    position: relative;
+    padding: 30px;
+}
+
+.carte-project {
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 65vh;
+    padding: 60px;
+    filter: drop-shadow(rgba(65, 174, 246, 0.774) 0px 10px 5px);
+}
+
+.img-icon-project {
+    height: 40%;
+    width: 40%;
+}
+
+.icon-size-likedin {
+    height: 45px;
+    width: 45px;
+}
+
+.icon-size-github {
+    height: 55px;
+    width: 55px;
+}
+
+.active-nav-item{
+    border: 1px solid rgb(65, 173, 246);
+    background-color: rgb(65, 173, 246);
+    border-radius: 5px;
+}
+
+.container{
+    height: 100%;
+}
+
+.blue-color-modified {
+    color: rgb(65, 173, 246);
+}
+
+.ul-space-between li{
+    margin : 0 15px 0 15px;
+}
+
+#aboutMe, #links{
+    border-radius: 10px;
+    margin: 10px 20px 50px 50px;
+    filter: drop-shadow(rgba(65, 174, 246, 0.774) 10px 10px 5px);
+}
+
+#links {
+    margin-top: 50px;
+}
+
+#links div a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#home, #projetcs{
+    height: 100vh;
+}
+
+#home a {
+    text-decoration: none;
+    color: grey;
+}
